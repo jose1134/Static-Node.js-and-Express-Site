@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const router = express.Router();
 const path = require('path');
-const data = require('./data.json');
+const data = require('./data');
 const projects = data.projects;
 
 
@@ -13,9 +13,18 @@ app.set('view engine', 'pug');
 
 
 app.get('/', (req,res,next)=>{
+	res.locals.projects = projects;
 	res.render('index', projects);
 });
 
+app.get('/about', (req,res,next)=>{
+	res.render('about');
+});
+
+app.get('/:id', (req,res,next)=>{
+	// const params = 
+
+});
 
 
 
