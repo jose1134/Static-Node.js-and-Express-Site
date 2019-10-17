@@ -22,7 +22,7 @@ app.get('/about', (req,res,next)=>{
 });
 
 app.get('/:id', (req,res,next)=>{
-	// const params = 
+	const params = req.params;
 
 });
 
