@@ -21,12 +21,24 @@ app.get('/about', (req,res,next)=>{
 	res.render('about');
 });
 
-app.get('/:id', (req,res,next)=>{
-	const params = req.params;
-
+app.get('/projects/:id', (req,res,next)=>{
+	const id = req.params.id;
+	res.locals.projects = projects[id];
+	res.render('project');
 });
 
+app.use((req,res,next) =>{
+	const err = new Error('Something went wrong');
+	res.locals.error = err;
+	err.status = 404;
+	res.render('error');
+});
 
+app.use((err, req, res, next) => {
+    res.locals.error = err
+    console.log(`An error has occured: ${err.status}`.red);
+    res.render('error') 
+});
 
 app.listen(3000, () => {
     console.log('Server listening on port 3000');
