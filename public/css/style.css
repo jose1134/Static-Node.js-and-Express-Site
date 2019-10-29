@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
 
+body{
+  background-color: teal;
+}
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
   h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
+    padding-top: 5px;
   }
 
   h6{
@@ -27,7 +32,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  color: black;
 }
 
 .button{
@@ -146,5 +151,10 @@ a:hover{
 }
 
 .portfolio-bio{
-    line-height: 25px;
+    line-height: 40px;
+    font-size: 25px;
+    color: black;
+}
+.thumbnail{
+  border-radius: 2%;
 }
