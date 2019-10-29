@@ -1,0 +1,25 @@
+{
+  "name": "static-node.js-and-express-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jose1134/Static-Node.js-and-Express-Site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jose1134/Static-Node.js-and-Express-Site/issues"
+  },
+  "homepage": "https://github.com/jose1134/Static-Node.js-and-Express-Site#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {}
+}
