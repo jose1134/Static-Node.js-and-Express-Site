@@ -5,7 +5,7 @@
             "project_name": "Techdegree Project 1: Random Quote Generator",
             "description":  "A random quote generator that scales to accept any number of quotes.",
             "technologies": [ "JavaScript", "HTML", "CSS"],
-            "live_link": "https://jose1134.github.io/Random-Quote-Generator/",
+            "live_link": "https://josecollado.github.io/Random-Quote-Generator/",
             "github_link": "https://github.com/jose1134/Random-Quote-Generator",
             "image_square" : "/static/images/project 1.jpg",
             "image_landscape" : [
@@ -19,7 +19,7 @@
          "project_name": "Techdegree Project 2: Pagination And Content Filter",
          "description":  "This website will accept any number of users and divide them up into 10 users per page. It has search functionality as well as numbered, clickable links at the bottom of the website in order to navigate to different pages.",
          "technologies": ["JavaScript", "HTML", "CSS"],
-         "live_link": "https://jose1134.github.io/Pagination-And-Content-Filter/",
+         "live_link": "https://josecollado.github.io/Pagination-And-Content-Filter/",
          "github_link": "https://github.com/jose1134/Pagination-And-Content-Filter",
          "image_square": "/static/images/project 2.jpg",
          "image_landscape" : [
@@ -32,7 +32,7 @@
              "project_name": "Techdegree Project 3: Build an Interactive Form",
              "description":  "This project created functionality for an interactive form for a fictional conference. It will validate user input as it is filled out and change based on inputs the user selects. This code implements jQuery throughout the entirety of the project.",
              "technologies": ["JavaScript", "jQuery", "HTML", "CSS"],
-             "live_link": "https://jose1134.github.io/Build-an-Interactive-Form/",
+             "live_link": "https://josecollado.github.io/Build-an-Interactive-Form/",
              "github_link": "https://github.com/jose1134/Build-an-Interactive-Form",
              "image_square": "/static/images/project 3.jpg",
              "image_landscape" : [
@@ -45,7 +45,7 @@
              "project_name": "Techdegree Project 4: OOP Game",
              "description":  "This was a fun project where I made a word guessing game that mainly focuses on employing Object Classes. A random phrase will be chosen and a player will try to guess the letters.",
              "technologies": ["JavaScript", "HTML", "CSS"],
-             "live_link": "https://jose1134.github.io/OOP-Game/",
+             "live_link": "https://josecollado.github.io/OOP-Game/",
              "github_link": "https://github.com/jose1134/OOP-Game",
              "image_square": "/static/images/project 4.jpg",
              "image_landscape" : [
@@ -58,7 +58,7 @@
              "project_name": "Techdegree Project 5: Public Api Request",
              "description":  "This project utilizes public API requests to propagate a webpage with random employees contact information. It has search functionality and creates a modal window when the employee is selected.",
              "technologies": ["JavaScript", "jQuery", "HTML", "CSS"],
-             "live_link": "https://jose1134.github.io/Public-Api-Request/",
+             "live_link": "https://josecollado.github.io/Public-Api-Request/",
              "github_link": "https://github.com/jose1134/Public-Api-Request",
              "image_square": "/static/images/project 5.jpg",
              "image_landscape" : [
